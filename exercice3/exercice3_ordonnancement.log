@@ -1,0 +1,198 @@
+Script started on 2026-07-07 19:54:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="172" LINES="41"]
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ nano fcfc[Ks.py
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;81H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                                       fcfs.py                                                                                [1;171H(B[m[40d(B[0;7m^G(B[m Help[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[40;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[40;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous[41d(B[0;7m^X(B[m Exit[41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[41;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[41;120H(B[0;7mM-6(B[m Copy[41;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[40;18H[28X[40;52H      (B[0;7mM-F(B[m New Buffer       [86G           [103G            (B[0;7m^X(B[m Execute Command[K[41;2H(B[0;7mC(B[m Cancel[41;18H[27X[41;52H      (B[0;7mM-N(B[m No Conversion    [86G[29X[41;115H(B[0;7m^T(B[m Browse[K[39d(B[0;7mFile to insert [from ./]:                                                                                                                                                   [39;27H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mb(B[m[?12l[?25h[?25l(B[0;7mb(B[m[?12l[?25h[?25l(B[0;7mn(B[m[?12l[?25h[?25l(B[0;7mn(B[m[?12l[?25h[?25l(B[0;7mk(B[m[?12l[?25h[?25l(B[0;7mj(B[m[?12l[?25h[?25l(B[0;7mh(B[m[?12l[?25h[?25l(B[0;7mg(B[m[?12l[?25h[?25l(B[0;7mg(B[m[?12l[?25h[?25l(B[0;7mg(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mv(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mx(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[K[40;35H(B[0;7mM-F(B[m New Buffer[40;58H           (B[0;7m^S(B[m Spell Check[40;103H(B[0;7m^J(B[m Full Justify                   (B[0;7m^V(B[m Cut Till End[41;35H(B[0;7mM-\(B[m Pipe Text[41;58H           (B[0;7m^Y(B[m Linter[41;103H(B[0;7m^O(B[m Formatter         [41;137H(B[0;7m^Z(B[m Suspend[39d(B[0;7mCommand to execute:                                                                                                                                                         [39;21H(B[m[?12l[?25h[?25l(B[0;7mn(B[m[?12l[?25h[?25l[39;78H[1K (B[0;7m[ Executing... ](B[m[K[39;81H(B[0;7mRead 1 line ](B[m[K[39;67H(B[0;1m[37m[41m[ Error: line 1: n: command not found ][39;49m(B[m[1;171H[?2004h[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[40;70H(B[0;7mT(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous[41;2H(B[0;7mX(B[m Exit  [41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[41;70H(B[0;7mJ(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy[41;138H(B[0;7mQ(B[m Where Was     (B[0;7mM-W(B[m Next[2d[?12l[?25h[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ cat <[K<[K> fcfs.py << ù[Kµ[K£[K%[K¨¨[K+[K[K§[K%%µµµµµ£££¨¨¨..//[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexercice3_ordonnancement.log [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K #!/usr/bin/env python3
+[?2004lAlgorithme FCbash: syntax error near unexpected token `newline'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ """
+[?2004l[?2004h> Algorithme FCFS (First-Come, First-Served)
+[?2004l[?2004h> Ordonnancement non-preemptif
+[?2004l[?2004h> """
+[?2004l = [
+    {"id": "P1", "arrivee": 0, "burst": 5},
+    {"id": "P2", "arrivee": 1, "burst": 3},
+    {"id": "P3", "arrivee": 2, "burst": 8},
+    {"id": "P4", "arrivee": 3, "burst": 6},
+]
+
+processus.sort(key=lambda p: p["arrivee"])
+
+temps_actuel = 0
+total_attente = 0
+
+print(f"{'ID':<5}{'Arrivee':<10}{'Burst':<8}{'Debut':<8}{'Fin':<8}{'Rotation':<10}{'Attente':<10}")
+
+for p in processus:
+    debut = max(temps_actuel, p["arrivee"])
+    fin = debut + p["burst"]
+    rotation = fin - p["arrivee"]
+    attente = rotation - p["burst"]
+    total_attente += attente
+    temps_actuel = fin
+
+    print(f"{p['id']:<5}{p['arrivee']:<10}{p['burst']:<8}{debut:<8}{fin:<8}{rotation:<10}{attente:<10}")
+
+moyenne_attente = total_attente / len(processus)
+print(f"\nTemps d'attente moyen (FCFS) : {moyenne_attente:.2f}")
+Algorithme FCFS (First-Come, First-Served)
+Ordonnancement non-preemptif
+: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ processus = [
+[?2004lprocessus: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     {"id": "P1", "arrivee": 0, "burst": 5},
+[?2004l{id:: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     {"id": "P2", "arrivee": 1, "burst": 3},
+[?2004l{id:: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     {"id": "P3", "arrivee": 2, "burst": 8},
+[?2004l{id:: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     {"id": "P4", "arrivee": 3, "burst": 6},
+[?2004l{id:: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ ]
+[?2004l]: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ processus.sort(key=lambda p: p["arrivee"])
+[?2004lbash: syntax error near unexpected token `key=lambda'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ temps_actuel = 0
+[?2004ltemps_actuel: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ total_attente = 0
+[?2004ltotal_attente: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ print(f"{'ID':<5}{'Arrivee':<10}{'Burst':<8}{'Debut':<8}{'Fin':<8}{'Rotation':<10}{'Attente':<10}")
+[?2004lbash: syntax error near unexpected token `f"{'ID':<5}{'Arrivee':<10}{'Burst':<8}{'Debut':<8}{'Fin':<8}{'Rotation':<10}{'Attente':<10}"'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ for p in processus:
+[?2004l[?2004h>     debut = max(temps_actuel, p["arrivee"])
+[?2004lbash: syntax error near unexpected token `debut'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     fin = debut + p["burst"]
+[?2004lCommand 'fin' not found, did you mean:
+  command 'fid' from deb id-utils (4.6.28-20200521ss15dab)
+  command 'fis' from deb redboot-tools (0.7build4)
+  command 'win' from deb wily (0.13.42-1)
+  command 'fim' from deb fim (0.6~rc2-1)
+  command 'tin' from deb tin (1:2.6.3-1)
+  command 'find' from deb findutils (4.9.0-5)
+  command 'fio' from deb fio (3.36-1ubuntu0.1)
+  command 'din' from deb din (57-1)
+Try: sudo apt install <deb name>
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     rotation = fin - p["arrivee"]
+[?2004lrotation: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     attente = rotation - p["burst"]
+[?2004lattente: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     total_attente += attente
+[?2004ltotal_attente: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     temps_actuel = fin
+[?2004ltemps_actuel: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$     print(f"{p['id']:<5}{p['arrivee']:<10}{p['burst']:<8}{debut:<8}{fin:<8}{rotation:<10}{attente:<10}")
+[?2004lbash: syntax error near unexpected token `f"{p['id']:<5}{p['arrivee']:<10}{p['burst']:<8}{debut:<8}{fin:<8}{rotation:<10}{attente:<10}"'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ 
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ moyenne_attente = total_attente / len(processus)
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ print(f"\nTemps d'attente moyen (FCFS) : {moyenne_attente:.2f}")
+[?2004lbash: syntax error near unexpected token `f"\nTemps d'attente moyen (FCFS) : {moyenne_attente:.2f}"'
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ C[Kclear
+[?2004l[H[2J[3J[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ cat <[K> fs[Kcfs.py >>[K[K<<[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > fcfs.py << 'EOF'
+[?2004l[?2004h> >>>>[K[K[K[K>[K>[K#!/usr/bin/env python3
+[?2004l[?2004h> processus = [
+[?2004l[?2004h>     {"id": "P1", "arrivee": 0, "burst": 5},
+[?2004l[?2004h>     {"id": "P2", "arrivee": 1, "burst": 3},
+[?2004l[?2004h>     {"id": "P3", "arrivee": 2, "burst": 8},
+[?2004lid": "P[?2004h>     {"id": "P4", "arrivee": 3, "burst": 6},
+[?2004lrocessus[?2004h> ]
+[?2004l[?2004h> 
+[?2004l[?2004h> processus.sort(key=lambda p: p["arrivee"])
+[?2004l[?2004h> 
+[?2004ltotal_at[?2004h> temps_actuel = 0
+[?2004ltente = [?2004h> total_attente = 0
+[?2004l   Arri[?2004h> 
+[?2004l[?2004h> print("ID    Arrivee   Burst   Debut   Fin   Rotation   Attente")
+[?2004l[?2004h> 
+[?2004l[?2004h> for p in processus:
+[?2004l[?2004h>     debut = max(temps_actuel, p["arrivee"])
+[?2004l[?2004h>     fin = debut + p["burst"]
+[?2004l[?2004h>     rotation = fin - p["arrivee"]
+[?2004l[?2004h>     attente = rotation - p["burst"]
+[?2004l[?2004h>     total_attente += attente
+[?2004l[?2004h>     temps_actuel = fin
+[?2004l[?2004h>     print(p["id"], p["arrivee"], p["burst"], debut, fin, rotation, attente)
+[?2004l[?2004h> 
+[?2004l[?2004h> moyenne_attente = total_attente / len(processus)
+[?2004l[?2004h> print("Temps d'attente moyen (FCFS):", round(moyenne_attente, 2))
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ pu[Kython3 fcfx.[K[KX[KS[Ks.pu[Ky
+[?2004lID    Arrivee   Burst   Debut   Fin   Rotation   Attente
+P1 0 5 0 5 5 0
+P2 1 3 5 8 7 4
+P3 2 8 8 16 14 6
+P4 3 6 16 22 19 13
+Temps d'attente moyen (FCFS): 5.75
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ cat > round_robin.py << 'EOF'
+[?2004l[?2004h> processus = [
+[?2004l[?2004h>     {"id": "P1", "arrivee": 0, "burst": 5, "restant": 5},
+[?2004l[?2004h>     {"id": "P2", "arrivee": 1, "burst": 3, "restant": 3},
+[?2004l[?2004h>     {"id": "P3", "arrivee": 2, "burst": 8, "restant": 8},
+[?2004l[?2004h>     {"id": "P4", "arrivee": 3, "burst": 6, "restant": 6},
+[?2004l[?2004h> ]
+[?2004l[?2004h> 
+[?2004l[?2004h> quantum = 2
+[?2004l[?2004h> temps = 0
+[?2004l[?2004h> file_attente = []
+[?2004l[?2004h> termine = {}
+[?2004l[?2004h> sequence = []
+[?2004l[?2004h> restants = {p["id"]: p["burst"] for p in processus}
+[?2004l[?2004h> arrivees = sorted(processus, key=lambda p: p["arrivee"])
+[?2004l[?2004h> index_arrivee = 0
+[?2004l[?2004h> file_attente.append(arrivees[0]["id"])
+[?2004l[?2004h> index_arrivee = 1
+[?2004l[?2004h> ids = {p["id"]: p for p in processus}
+[?2004l[?2004h> 
+[?2004l[?2004h> while file_attente:
+[?2004l[?2004h>     pid = file_attente.pop(0)
+[?2004l[?2004h>     p = ids[pid]
+[?2004l[?2004h>     execution = min(quantum, restants[pid])
+[?2004l[?2004h>     sequence.append((pid, temps, temps + execution))
+[?2004l[?2004h>     temps += execution
+[?2004l[?2004h>     restants[pid] -= execution
+[?2004l[?2004h> 
+[?2004l[?2004h>     while index_arrivee < len(arrivees) and arrivees[index_arrivee]["arrivee"] <= temps:
+[?2004l[?2004h>         file_attente.append(arrivees[index_arrivee]["id"])
+[?2004l[?2004h>         index_arrivee += 1
+[?2004l[?2004h> 
+[?2004l[?2004h>     if restants[pid] > 0:
+[?2004l[?2004h>         file_attente.append(pid)
+[?2004l[?2004h>     else:
+[?2004l   termi[?2004h>         termine[pid] = temps
+[?2004l[?2004h> 
+[?2004l[?2004h> print("Sequence d'execution (Round Robin, quantum=2):")
+[?2004l[?2004h> for pid, debut, fin in sequence:
+[?2004l[?2004h>     print(pid, ": de", debut, "a", fin)
+[?2004l[?2004h> 
+[?2004l[?2004h> print()
+[?2004l[?2004h> print("Temps de fin de chaque processus:")
+[?2004l p in pr[?2004h> for p in processus:
+[?2004l[?2004h>     print(p["id"], ":", termine[p["id"]])
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ pythin[K[Kon3 round_robin.py
+[?2004lSequence d'execution (Round Robin, quantum=2):
+P1 : de 0 a 2
+P2 : de 2 a 4
+P3 : de 4 a 6
+P1 : de 6 a 8
+P4 : de 8 a 10
+P2 : de 10 a 11
+P3 : de 11 a 13
+P1 : de 13 a 14
+P4 : de 14 a 16
+P3 : de 16 a 18
+P4 : de 18 a 20
+P3 : de 20 a 22
+
+Temps de fin de chaque processus:
+P1 : 14
+P2 : 11
+P3 : 22
+P4 : 20
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice3[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice3[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-07 20:33:11+01:00 [COMMAND_EXIT_CODE="0"]
