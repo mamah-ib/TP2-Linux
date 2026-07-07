@@ -1,0 +1,42 @@
+Script started on 2026-07-08 00:06:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="172" LINES="41"]
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ cat > rapport_sys.sh << 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> echo "=== Rapport systeme ===" > systeme.log
+[?2004l[?2004h> date >> systeme.log
+[?2004l[?2004h> 
+[?2004l[?2004h> echo "" >> systeme.log
+[?2004l[?2004h> echo "Nombre de processus en cours:" >> systeme.log
+[?2004l[?2004h> ps -e --no-headers | wc -l >> systeme.log
+[?2004l[?2004h> 
+[?2004l[?2004h> echo "" >> systeme.log
+[?2004l[?2004h> echo "Espace disque disponible:" >> systeme.log
+[?2004l[?2004h> df -h / >> systeme.log
+[?2004l[?2004h> 
+[?2004l[?2004h> charge=$(uptime | awk -F'load average:' '{print $2}' | awk -F, '{print $1}' | tr -d ' ')
+[?2004l[?2004h> seuil="1.0"
+[?2004l[?2004h> if (( $(echo "$charge > $seuil" | bc -l) )); then
+[?2004l[?2004h>     echo "Attention : Forte charge CPU detectee !"
+[?2004l[?2004h> fi
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ chmod +x rapport_sys.sh
+[?2004lpport_sys.sh[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ ./rapport_sys.sh
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ cat systeme.log
+[?2004l=== Rapport systeme ===
+Wed Jul  8 00:08:39 +01 2026
+
+Nombre de processus en cours:
+30
+
+Espace disque disponible:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.8G  953G   1% /
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ echo "Pour automatiser ce script quotidiennement a minuit, on utiliserait la commande: crontab -e"
+[?2004lPour automatiser ce script quotidiennement a minuit, on utiliserait la commande: crontab -e
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ echo "Puis on ajouterait la ligne 
+[?2004l[?2004h> suivante: 0 0 * * * /home/atighleckbeid/TP2-Linux/exercice6/rapport_sys.sh"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^Msuivante: 0 0 * * * /home/atighleckbeid/TP2-Linux/exercice6/rapport_sys.sh"[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lPuis on ajouterait la ligne 
+suivante: 0 0 * * * /home/atighleckbeid/TP2-Linux/exercice6/rapport_sys.sh
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice6[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice6[00m$ E[Kexit
+[?2004lexit
+
+Script done on 2026-07-08 00:27:00+01:00 [COMMAND_EXIT_CODE="0"]

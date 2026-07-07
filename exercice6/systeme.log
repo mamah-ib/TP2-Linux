@@ -1,0 +1,9 @@
+=== Rapport systeme ===
+Wed Jul  8 00:08:39 +01 2026
+
+Nombre de processus en cours:
+30
+
+Espace disque disponible:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.8G  953G   1% /
