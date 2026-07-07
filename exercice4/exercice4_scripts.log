@@ -1,0 +1,53 @@
+Script started on 2026-07-07 23:22:07+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="172" LINES="41"]
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ cat <[K<[K<[K> mon_c[Kscript.sh >>[K[K<< 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> #!/bin/bash[K[K[K[K[K[K[K[K[K[K[Kecho "Bienvenue dans mon script bash personnalise !"
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ vhmo[K[K[K[Kchmod +x mon_script.sh
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./mon_scripts[K.sh
+[?2004lBienvenue dans mon script bash personnalise !
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ cat > mon_script.sh << 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> echo "Bienvenue dans mon script bash personnalise !"
+[?2004l[?2004h> date
+[?2004l[?2004h> ls -lh
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./mon_script_sh[K[K[K.sh
+[?2004lBienvenue dans mon script bash personnalise !
+Tue Jul  7 23:32:13 +01 2026
+total 4.0K
+-rw-r--r-- 1 atighleckbeid atighleckbeid  0 Jul  7 23:22 exercice4_scripts.log
+-rwxr-xr-x 1 atighleckbeid atighleckbeid 77 Jul  7 23:31 mon_script.sh
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ cat > script_interactif.sh << 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> read -p "Entrez votre nom : " nom
+[?2004l[?2004h> echo "Bienvenue, $nom, nous sommes le $(date)"
+[?2004l[?2004h> EOFcat > script_interactif.sh << 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> read -p "Entrez votre nom : " nom
+[?2004l[?2004h> echo "Bienvenue, $nom, nous sommes le $(date)"
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ chmod +x scriot[K[Kpt_interactif.sh
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./script_interactif.sh
+[?2004lEntrez votre nom : mamah
+Bienvenue, mamah, nous sommes le Tue Jul  7 23:35:08 +01 2026
+./script_interactif.sh: line 7: warning: here-document at line 4 delimited by end-of-file (wanted `EOF')
+./script_interactif.sh: line 4: EOFcat: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ cat > script_interactif.sh << 'EOF'
+[?2004l[?2004h> #!/bin/bash
+[?2004l[?2004h> read -p "Entrez votre nom : " nom
+[?2004l[?2004h> echo "Bienvenue, $nom, nous sommes le $(date)"
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ chmod +x script_interactif.sh
+[?2004l./script_interactif.sh[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./script_interactif.shc[K
+[?2004lEntrez votre nom : 
+Bienvenue, , nous sommes le Tue Jul  7 23:45:14 +01 2026
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./script_intercatif.shacatif.sh[C[C[C[C[C[C[C[C
+[?2004lbash: ./script_interacatif.sh: No such file or directory
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ ./script_interactig[Kf.sh
+[?2004lEntrez votre nom : mamah
+Bienvenue, mamah, nous sommes le Tue Jul  7 23:49:33 +01 2026
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice4[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice4[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-07 23:50:14+01:00 [COMMAND_EXIT_CODE="0"]
