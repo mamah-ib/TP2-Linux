@@ -1,0 +1,43 @@
+Script started on 2026-07-07 14:19:44+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="172" LINES="41"]
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo useraad -m etudiat[Knt1
+[?2004l[sudo] password for atighleckbeid: 
+sudo: useraad: command not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ S[Ksudo useradd -m etudiant1
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ S[Ksudo user [Kadd -m etudiant2
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ TA[K[Ktail/etc/passwd /etc/passwd
+[?2004lsystemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+landscape:x:104:105::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:990:990:User for polkitd:/:/usr/sbin/nologin
+atighleckbeid:x:1001:1001:,,,:/home/atighleckbeid:/bin/bash
+atighlekbeid:x:1002:1002:atighlekbeid,atighlekbeid,42632343,42632343:/home/atighlekbeid:/bin/bash
+ali:x:1003:1003::/home/ali:/bin/sh
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+etudiant1:x:1004:1004::/home/etudiant1:/bin/sh
+etudiant2:x:1005:1005::/home/etudiant2:/bin/sh
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo groupadd projet_linux
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo usermod -aG projet_linux etudiam[Knt1
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ SUD[K[K[Ksudo usermod -aG projet_linuux[K[Kx etudianté[K2
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ getent group projet_linux
+[?2004lprojet_linux:x:1006:etudiant1,etudiant2
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo mkdir -p /data/commun
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo chown tudi[K[K[K[Ketudiant1 /data/commun
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo chgrp projey-[K[Kt-linux /data/commun
+[?2004lchgrp: invalid group: ‘projet-linux’
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ ls -ld /Da[K[Kdata/commun
+[?2004ldrwxr-xr-x 2 etudiant1 root 4096 Jul  7 14:35 [0m[01;34m/data/commun[0m
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo chgrp projet_linux /data/commun
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ ls -ld /data/commun
+[?2004ldrwxr-xr-x 2 etudiant1 projet_linux 4096 Jul  7 14:35 [0m[01;34m/data/commun[0m
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo chmod77[K[K 770 /data/commun
+[?2004l[sudo] password for atighleckbeid: 
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ L[Kls -ld /data/commun
+[?2004ldrwxrwx--- 2 etudiant1 projet_linux 4096 Jul  7 14:35 [0m[01;34m/data/commun[0m
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo pass[K[K[K[Kgpasswd -d etudiant1 projey[Kt_linux
+[?2004lRemoving user etudiant1 from group projet_linux
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ sudo userdel -f[Kr etudiant2
+[?2004luserdel: etudiant2 mail spool (/var/mail/etudiant2) not found
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice1[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice1[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-07 18:27:12+01:00 [COMMAND_EXIT_CODE="0"]
