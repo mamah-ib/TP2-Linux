@@ -1,0 +1,619 @@
+Script started on 2026-07-07 19:21:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="172" LINES="41"]
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ echo 'while true; do x=$((x+1)); sleep 1; done' > boucle.sh
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ chmod +x boucle.sh
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ./boucle.sh &
+[?2004l[1] 5026
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ./boucle.sh &
+[?2004l[2] 5036
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ./boucle.sh &
+[?2004l[3] 5044
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ./boucle.sh &
+[?2004l[4] 5051
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ./boucle.sh &
+[?2004l[5] 5059
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ps -eLf | grep boucle
+[?2004latighle+    5160    5016    5160  0    1 19:23 pts/2    00:00:00 grep --color=auto [01;31m[Kboucle[m[K
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ JOBS[K[K[K[Kjobs
+[?2004l[1]   Running                 ./boucle.sh &
+[2]   Running                 ./boucle.sh &
+[3]   Running                 ./boucle.sh &
+[4]-  Running                 ./boucle.sh &
+[5]+  Running                 ./boucle.sh &
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ps aux <[K1[K&[K\[K\[K\[K1[K1[K2345[K[K[K[K/[K][K[[K=[K\[K'[K;[K.[K/[K0[K2[K1[K111111122222222222@@!!!11111!!!\\\\|[1P|[1P|[1P|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[1P\|[C[1P|[C GREP[K[K[K[Kgrep boucle
+[?2004latighle+    6340  0.0  0.0   4096  2104 pts/2    S+   19:28   0:00 grep --color=auto [01;31m[Kboucle[m[K
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ ps -eLf | grep sh
+[?2004lroot         198       1     198  0    2 Jul06 ?        00:00:00 /usr/bin/python3 /usr/[01;31m[Ksh[m[Kare/unattended-upgrades/unattended-upgrade-[01;31m[Ksh[m[Kutdown --wait-for-signal
+root         198       1     252  0    2 Jul06 ?        00:00:00 /usr/bin/python3 /usr/[01;31m[Ksh[m[Kare/unattended-upgrades/unattended-upgrade-[01;31m[Ksh[m[Kutdown --wait-for-signal
+atighle+     392     309     392  0    1 Jul06 pts/1    00:00:00 -ba[01;31m[Ksh[m[K
+atighle+     493     489     493  0    1 Jul06 pts/0    00:00:01 -ba[01;31m[Ksh[m[K
+atighle+    4454    4451    4454  0    1 15:55 pts/3    00:00:00 -ba[01;31m[Ksh[m[K
+atighle+    5016    5015    5016  0    1 19:21 pts/2    00:00:00 ba[01;31m[Ksh[m[K -i
+atighle+    5026    5016    5026  0    1 19:23 pts/2    00:00:01 ba[01;31m[Ksh[m[K -i
+atighle+    5036    5016    5036  0    1 19:23 pts/2    00:00:01 ba[01;31m[Ksh[m[K -i
+atighle+    5044    5016    5044  0    1 19:23 pts/2    00:00:01 ba[01;31m[Ksh[m[K -i
+atighle+    5051    5016    5051  0    1 19:23 pts/2    00:00:01 ba[01;31m[Ksh[m[K -i
+atighle+    5059    5016    5059  0    1 19:23 pts/2    00:00:01 ba[01;31m[Ksh[m[K -i
+atighle+    6947    5016    6947  0    1 19:30 pts/2    00:00:00 grep --color=auto [01;31m[Ksh[m[K
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ pgrep -a boucle
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 19:32:00 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  38 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  37 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.2 (B[m[39;49mus,(B[m[39;49m[1m  2.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  2.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3247.4 (B[m[39;49mfree,(B[m[39;49m[1m    500.8 (B[m[39;49mused,(B[m[39;49m[1m    248.1 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3351.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                              (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   9.1   0.1   0:01.39 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5408   3232 R   9.1   0.1   0:00.02 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.0   0.9   3:41.04 containerd                                                                                           (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.57 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.17 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.11 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.69 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.69 bash                                                                                                 (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.43 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.33 bash                                                                                                 (B[m[39;49m[K
+(B[m   7482 atighle+  20   0    3132   1888   1776 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:03 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.5 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.2 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3246.7 (B[m[39;49mfree,(B[m[39;49m[1m    501.4 (B[m[39;49mused,(B[m[39;49m[1m    248.2 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3351.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.7   0.1   0:00.04 top                                                                                                  (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.44 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.34 bash                                                                                                 (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.0   0.9   3:41.04 containerd                                                                                           (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.57 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.17 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.11 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.69 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.69 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.39 bash                                                                                                 (B[m[39;49m[K
+(B[m   7498 atighle+  20   0    3132   1904   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:06 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.4 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3246.2 (B[m[39;49mfree,(B[m[39;49m[1m    501.9 (B[m[39;49mused,(B[m[39;49m[1m    248.2 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3350.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.3   0.9   3:41.05 containerd                                                                                           (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.3   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.70 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.70 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.40 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.3   0.1   0:00.05 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.17 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.11 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.44 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.34 bash                                                                                                 (B[m[39;49m[K
+(B[m   7513 atighle+  20   0    3132   1908   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:09 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.2 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3245.8 (B[m[39;49mfree,(B[m[39;49m[1m    502.2 (B[m[39;49mused,(B[m[39;49m[1m    248.2 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3350.4 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.46 bash                                                                                                 (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.3   0.9   3:41.06 containerd                                                                                           (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.71 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.35 bash                                                                                                 (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.17 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.11 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.70 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.40 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.0   0.1   0:00.05 top                                                                                                  (B[m[39;49m[K
+(B[m   7528 atighle+  20   0    3132   1908   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:12 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3244.7 (B[m[39;49mfree,(B[m[39;49m[1m    503.3 (B[m[39;49mused,(B[m[39;49m[1m    248.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3349.3 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   1.3   0.1   0:01.74 bash                                                                                                 (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   1.0   0.1   0:01.49 bash                                                                                                 (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.3   0.9   3:41.07 containerd                                                                                           (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.3   0.0   0:01.18 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.3   0.1   0:00.12 script                                                                                               (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.36 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.41 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.3   0.1   0:00.06 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.71 bash                                                                                                 (B[m[39;49m[K
+(B[m   7543 atighle+  20   0    3132   1908   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:15 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  37 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m  35 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.8 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.5 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3243.7 (B[m[39;49mfree,(B[m[39;49m[1m    504.3 (B[m[39;49mused,(B[m[39;49m[1m    248.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3348.3 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   1.0   0.1   0:01.52 bash                                                                                                 (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.3   0.9   3:41.08 containerd                                                                                           (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.72 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.3   0.1   0:00.07 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.18 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.12 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.36 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   5059 atighle+  20   0    6084   3568   1932 R   0.0   0.1   0:01.41 bash                                                                                                 (B[m[39;49m[K
+(B[m   7558 atighle+  20   0    3132   1900   1784 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:18 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  38 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  37 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.6 (B[m[39;49mus,(B[m[39;49m[1m  2.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3242.8 (B[m[39;49mfree,(B[m[39;49m[1m    505.2 (B[m[39;49mused,(B[m[39;49m[1m    248.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3347.5 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   1.3   0.1   0:01.56 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   1.3   0.1   0:01.45 bash                                                                                                 (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.7   0.9   3:41.10 containerd                                                                                           (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.78 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.7   0.1   0:00.09 top                                                                                                  (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.73 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.37 bash                                                                                                 (B[m[39;49m[K
+(B[m   7574 atighle+  20   0    3132   1904   1788 S   0.3   0.0   0:00.01 sleep                                                                                                (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.18 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.12 script                                                                                               (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K[H(B[mtop - 19:32:21 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  37 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  36 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.6 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.8 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3242.4 (B[m[39;49mfree,(B[m[39;49m[1m    505.5 (B[m[39;49mused,(B[m[39;49m[1m    248.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3347.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   1.3   0.1   0:01.49 bash                                                                                                 (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.58 bash                                                                                                 (B[m[39;49m[K
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.39 bash                                                                                                 (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.3   0.0   0:01.19 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.3   0.1   0:00.13 script                                                                                               (B[m[39;49m[K
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.79 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.3   0.1   0:00.10 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.0   0.9   3:41.10 containerd                                                                                           (B[m[39;49m[K
+
+
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5016 atighle+  20   0    6084   5280   3644 S   0.0   0.1   0:00.22 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.73 bash                                                                                                 (B[m[39;49m[K
+(B[m   7587 atighle+  20   0    3132   1904   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[H(B[mtop - 19:32:24 up 23:28,  1 user,  load average: 0.00, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  38 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  37 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.2 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3242.2 (B[m[39;49mfree,(B[m[39;49m[1m    505.8 (B[m[39;49mused,(B[m[39;49m[1m    248.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3346.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.81 bash                                                                                                 (B[m[39;49m[K
+(B[m   5036 atighle+  20   0    6084   3568   1932 S   0.7   0.1   0:01.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   2690 root      20   0 1940748  34076  19196 S   0.3   0.9   3:41.11 containerd                                                                                           (B[m[39;49m[K
+(B[m   5044 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.59 bash                                                                                                 (B[m[39;49m[K
+(B[m   5059 atighle+  20   0    6084   3568   1932 S   0.3   0.1   0:01.50 bash                                                                                                 (B[m[39;49m[K
+(B[m[1m   7485 atighle+  20   0    9300   5672   3488 R   0.3   0.1   0:00.11 top                                                                                                  (B[m[39;49m[K
+(B[m      1 root      20   0   22184  13656   9792 S   0.0   0.3   0:33.74 systemd                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0    3180   2200   2072 S   0.0   0.1   0:03.66 init-systemd(Ub                                                                                      (B[m[39;49m[K
+(B[m      8 root      20   0    3180   2044   1940 S   0.0   0.1   0:00.00 init                                                                                                 (B[m[39;49m[K
+(B[m     50 root      19  -1   50444  17952  16764 S   0.0   0.5   0:29.88 systemd-journal                                                                                      (B[m[39;49m[K
+(B[m     97 root      20   0   25396   6700   5128 S   0.0   0.2   0:26.82 systemd-udevd                                                                                        (B[m[39;49m[K
+(B[m    119 systemd+  20   0   21596  13280  11012 S   0.0   0.3   0:02.02 systemd-resolve                                                                                      (B[m[39;49m[K
+(B[m    126 systemd+  20   0   91036   7972   7000 S   0.0   0.2   0:10.51 systemd-timesyn                                                                                      (B[m[39;49m[K
+(B[m    163 root      20   0    4244   2684   2432 S   0.0   0.1   0:00.72 cron                                                                                                 (B[m[39;49m[K
+(B[m    164 message+  20   0    9784   5616   4696 S   0.0   0.1   0:16.02 dbus-daemon                                                                                          (B[m[39;49m[K
+(B[m    171 root      20   0   17980   8880   7836 S   0.0   0.2   0:06.31 systemd-logind                                                                                       (B[m[39;49m[K
+(B[m    186 syslog    20   0  222516   6084   4676 S   0.0   0.2   0:03.92 rsyslogd                                                                                             (B[m[39;49m[K
+(B[m    198 root      20   0  107032  23404  13948 S   0.0   0.6   0:00.34 unattended-upgr                                                                                      (B[m[39;49m[K
+(B[m    309 root      20   0    6672   4668   3884 S   0.0   0.1   0:00.04 login                                                                                                (B[m[39;49m[K
+(B[m    363 atighle+  20   0   20312  11520   9388 S   0.0   0.3   0:01.91 systemd                                                                                              (B[m[39;49m[K
+(B[m    364 atighle+  20   0   21168   3576   1848 S   0.0   0.1   0:00.00 (sd-pam)                                                                                             (B[m[39;49m[K
+(B[m    392 atighle+  20   0    6080   5316   3652 S   0.0   0.1   0:00.06 bash                                                                                                 (B[m[39;49m[K
+(B[m    488 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m    489 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.59 Relay(493)                                                                                           (B[m[39;49m[K
+(B[m    493 atighle+  20   0    6336   5664   3668 S   0.0   0.1   0:01.76 bash                                                                                                 (B[m[39;49m[K
+(B[m   1574 polkitd   20   0  308172   8064   7168 S   0.0   0.2   0:04.50 polkitd                                                                                              (B[m[39;49m[K
+(B[m   2796 root      20   0 1983180  68756  46616 S   0.0   1.7   0:29.58 dockerd                                                                                              (B[m[39;49m[K
+(B[m   4449 root      20   0    3184   1112    980 S   0.0   0.0   0:00.01 SessionLeader                                                                                        (B[m[39;49m[K
+(B[m   4451 root      20   0    3200   1252   1108 S   0.0   0.0   0:01.19 Relay(4454)                                                                                          (B[m[39;49m[K
+(B[m   4454 atighle+  20   0    6080   5372   3652 S   0.0   0.1   0:00.75 bash                                                                                                 (B[m[39;49m[K
+(B[m   5015 atighle+  20   0    3152   2080   1936 S   0.0   0.1   0:00.13 script                                                                                               (B[m[39;49m[K
+
+(B[m   5051 atighle+  20   0    6084   3568   1932 S   0.0   0.1   0:01.39 bash                                                                                                 (B[m[39;49m[K
+(B[m   7601 atighle+  20   0    3132   1908   1792 S   0.0   0.0   0:00.00 sleep                                                                                                (B[m[39;49m[K[?1l>[42;1H
+[?12l[?25h[K[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ sudo renice 10-p 5026[1@ [C[C[C[C[C[C[C
+[?2004l[sudo] password for atighleckbeid: 
+Sorry, try again.
+[sudo] password for atighleckbeid: 
+5026 (process ID) old priority 0, new priority 10
+[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ T[Ktop -p 5026
+[?2004l[?1h=[?25l[H[2J(B[mtop - 19:35:25 up 23:31,  1 user,  load average: 0.04, 0.05, 0.01(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m   1 (B[m[39;49mtotal,(B[m[39;49m[1m   0 (B[m[39;49mrunning,(B[m[39;49m[1m   1 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  2.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3227.6 (B[m[39;49mfree,(B[m[39;49m[1m    520.2 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3332.4 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                              (B[m[39;49m[K
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.21 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:28 up 23:31,  1 user,  load average: 0.04, 0.05, 0.01(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3227.8 (B[m[39;49mfree,(B[m[39;49m[1m    520.0 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3332.7 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+
+[J[H(B[mtop - 19:35:31 up 23:31,  1 user,  load average: 0.04, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.4 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3227.7 (B[m[39;49mfree,(B[m[39;49m[1m    520.1 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3332.5 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.22 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:34 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.1 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.8 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.22 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:37 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.5 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 99.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3227.9 (B[m[39;49mfree,(B[m[39;49m[1m    519.9 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3332.7 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.23 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:40 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  1.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3228.4 (B[m[39;49mfree,(B[m[39;49m[1m    519.4 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3333.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.24 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:43 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3229.2 (B[m[39;49mfree,(B[m[39;49m[1m    518.6 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3334.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.24 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:46 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.9 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3229.4 (B[m[39;49mfree,(B[m[39;49m[1m    518.4 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3334.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.25 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:49 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.9 (B[m[39;49msy,(B[m[39;49m[1m  0.2 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3229.7 (B[m[39;49mfree,(B[m[39;49m[1m    518.1 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3334.5 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.26 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:53 up 23:31,  1 user,  load average: 0.03, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3230.0 (B[m[39;49mfree,(B[m[39;49m[1m    517.8 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3334.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.26 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:56 up 23:31,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.3 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3229.0 (B[m[39;49mfree,(B[m[39;49m[1m    518.8 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3333.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.27 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:35:59 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3230.0 (B[m[39;49mfree,(B[m[39;49m[1m    517.8 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3334.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.28 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:02 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.4 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3231.0 (B[m[39;49mfree,(B[m[39;49m[1m    516.8 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3335.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.29 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:05 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.9 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3231.5 (B[m[39;49mfree,(B[m[39;49m[1m    516.3 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3336.3 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.29 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:08 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.9 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3232.2 (B[m[39;49mfree,(B[m[39;49m[1m    515.6 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3337.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.30 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:11 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.9 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.31 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:14 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3232.0 (B[m[39;49mfree,(B[m[39;49m[1m    515.8 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3336.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.32 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:17 up 23:32,  1 user,  load average: 0.02, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3232.2 (B[m[39;49mfree,(B[m[39;49m[1m    515.5 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3337.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.32 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:20 up 23:32,  1 user,  load average: 0.01, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3232.7 (B[m[39;49mfree,(B[m[39;49m[1m    515.0 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3337.6 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.33 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:23 up 23:32,  1 user,  load average: 0.01, 0.04, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.4 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3232.5 (B[m[39;49mfree,(B[m[39;49m[1m    515.3 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3337.3 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.33 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:28 up 23:32,  1 user,  load average: 0.01, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3233.2 (B[m[39;49mfree,(B[m[39;49m[1m    514.5 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3338.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.34 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:31 up 23:32,  1 user,  load average: 0.01, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.4 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3233.7 (B[m[39;49mfree,(B[m[39;49m[1m    514.0 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3338.6 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.35 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:34 up 23:32,  1 user,  load average: 0.01, 0.03, 0.00(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.1 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 98.1 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.4 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3233.0 (B[m[39;49mfree,(B[m[39;49m[1m    514.7 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3337.9 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.36 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:37 up 23:32,  1 user,  load average: 0.17, 0.07, 0.01(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3233.7 (B[m[39;49mfree,(B[m[39;49m[1m    514.0 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3338.6 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.36 bash                                                                                                 (B[m[39;49m[K
+[J[H(B[mtop - 19:36:40 up 23:32,  1 user,  load average: 0.17, 0.07, 0.01(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3852.6 (B[m[39;49mtotal,(B[m[39;49m[1m   3234.1 (B[m[39;49mfree,(B[m[39;49m[1m    513.6 (B[m[39;49mused,(B[m[39;49m[1m    248.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   1024.0 (B[m[39;49mtotal,(B[m[39;49m[1m   1024.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3339.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.3   0.1   0:02.37 bash                                                                                                 (B[m[39;49m[K
+[J[6;1H[7m Unknown command - try 'h' for help [?25l(B[m[39;49m[K[?25l[H(B[mtop - 19:36:42 up 23:32,  1 user,  load average: 0.16, 0.06, 0.01(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.5 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   5026 atighle+  30  10    6084   3568   1932 S   0.0   0.1   0:02.37 bash                                                                                                 (B[m[39;49m[K
+[J[?1l>[42;1H
+[?12l[?25h[K[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ kill 5026 5036 5044 5051 5059
+[?2004l[?2004h]0;atighleckbeid@DESKTOP-C9T6CO2: ~/TP2-Linux/exercice2[01;32matighleckbeid@DESKTOP-C9T6CO2[00m:[01;34m~/TP2-Linux/exercice2[00m$ EXIT[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-07-07 19:37:58+01:00 [COMMAND_EXIT_CODE="0"]
